@@ -17,7 +17,7 @@
   document.getElementById('year').textContent = new Date().getFullYear();
 
   if ('IntersectionObserver' in window) {
-    var els = document.querySelectorAll('.section-head, .role-card, .career-col, .value, .media-card');
+    var els = document.querySelectorAll('.section-head, .tile, .career-col, .value');
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
         if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
