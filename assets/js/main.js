@@ -13,14 +13,11 @@
     });
   });
 
-  document.querySelectorAll('a[aria-disabled="true"]').forEach(function (a) {
-    a.addEventListener('click', function (e) { e.preventDefault(); });
-  });
 
   document.getElementById('year').textContent = new Date().getFullYear();
 
   if ('IntersectionObserver' in window) {
-    var els = document.querySelectorAll('.section-head, .role-card, .timeline li, .axis, .value, .news-card');
+    var els = document.querySelectorAll('.section-head, .role-card, .career-col, .value, .media-card');
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
         if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }

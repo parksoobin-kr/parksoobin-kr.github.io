@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img" aria-label="프로필 사진 자리표시">
-  <rect width="600" height="750" fill="#1C2B4D"/>
-  <circle cx="300" cy="290" r="120" fill="#2A3B61"/>
-  <path d="M90 750c20-170 110-250 210-250s190 80 210 250z" fill="#2A3B61"/>
-  <rect x="40" y="40" width="520" height="670" fill="none" stroke="#B08D57" stroke-width="2"/>
-  <text x="300" y="690" text-anchor="middle" fill="#B08D57" font-family="sans-serif" font-size="22">프로필 사진 교체 필요</text>
-</svg>
